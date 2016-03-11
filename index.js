@@ -21,6 +21,13 @@ function IngestMms () {
    * @param  {function} cb - Nothing returned
    */
   this.ingestItems = require(`${__dirname}/lib/items`)
+
+  /**
+   * Ingest the MMS Captures
+   *
+   * @param  {function} cb - Nothing returned
+   */
+  this.ingestCaptures = require(`${__dirname}/lib/captures`)
 }
 
 module.exports = exports = new IngestMms()
