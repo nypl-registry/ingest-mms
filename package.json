@@ -1,0 +1,35 @@
+{
+  "name": "nypl-registry-ingest-mms",
+  "version": "1.0.0",
+  "description": "MMS to native JSON ingest",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "standard": { "ignore" : "test/*"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/ingest-mms.git"
+  },
+  "keywords": [
+    "nypl-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/ingest-mms/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/ingest-mms",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "libxmljs": "^0.17.1",
+    "nypl-registry-utils-database": "nypl-registry/utils-database",
+    "nypl-registry-utils-lexicon": "nypl-registry/utils-lexicon",
+    "nypl-registry-utils-normalize": "nypl-registry/utils-normalize"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "standard": "^6.0.7"
+  }
+}
