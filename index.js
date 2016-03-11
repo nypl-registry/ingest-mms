@@ -2,14 +2,11 @@
 
 function IngestMms () {
   /**
-   * Will prompt for the location of the FAST data
+   * Ingest the MMS collections
    *
    * @param  {function} cb - Nothing returned
    */
-  // this.ingest = require(__dirname + '/lib/ingest')(this)
-
-  var lexicon = require('nypl-registry-utils-lexicon')
-  console.log(lexicon.maps)
+  this.ingestCollections = require(`${__dirname}/lib/collections`)
 }
 
 module.exports = exports = new IngestMms()

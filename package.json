@@ -6,7 +6,9 @@
   "scripts": {
     "test": "standard && mocha test"
   },
-  "standard": { "ignore" : "test/*"},
+  "standard": {
+    "ignore": "test/*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nypl-registry/ingest-mms.git"
@@ -22,6 +24,7 @@
   "homepage": "https://github.com/nypl-registry/ingest-mms",
   "dependencies": {
     "cli-color": "^1.1.0",
+    "highland": "^2.7.1",
     "libxmljs": "^0.17.1",
     "nypl-registry-utils-database": "nypl-registry/utils-database",
     "nypl-registry-utils-lexicon": "nypl-registry/utils-lexicon",
